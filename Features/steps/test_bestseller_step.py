@@ -33,9 +33,11 @@ def step_impl(context):
 @when(u'i click on adding cart button')
 def step_impl(context):
     context.driver.find_element_by_id("add-to-cart-button").click()
+    print("The peer review")
 
 
 @then(u'i click on proceed to checkout button')
 def step_impl(context):
     context.driver.find_element_by_xpath("//*[@id='attach-sidesheet-checkout-button']/span/input").click()
+    print("chceking git")
 
