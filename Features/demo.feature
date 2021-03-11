@@ -1,11 +1,12 @@
 Feature: sample
 
-Scenario: Verify creation of amazon account
-     Given I login with url
-#      When I click on sign in button
-#      And I click on create amazon button
-#      And i enter username
-#      And i enter e-mail
-#      And i enter pwd
-#      And i enter re enter pwd
-#      Then I click on create your amazon account button
+     @bestsellers1
+Scenario: Verify bestsellers
+  When i click on bestsellers
+  And i click on newreases
+  And i click on movers and shakers
+  And i click on most wished for
+  And i click on gift ideas
+  And i click on first image
+  And i click on adding cart button
+  Then i click on proceed to checkout button
