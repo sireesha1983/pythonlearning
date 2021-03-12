@@ -13,7 +13,7 @@ def step_impl(context):
 @when(u'i click on categories')
 def step_impl(context):
     context.driver.find_element_by_xpath("//*[@id='a-page']/div[2]/div/div[1]/ul[1]/li[4]/a").click()
-    
+
 
 
 
