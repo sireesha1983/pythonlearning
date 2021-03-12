@@ -1,4 +1,7 @@
 from behave import when, then
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 
 
 @when(u'i click on bestsellers')
@@ -35,7 +38,10 @@ def step_impl(context):
     context.driver.find_element_by_id("add-to-cart-button").click()
 
 
+
 @then(u'i click on proceed to checkout button')
 def step_impl(context):
+    element = WebDriverWait(context.driver, 50).until(EC.presence_of_element_located((By.XPATH, "//*[@id='attach-sidesheet-checkout-button']/span/input")))
     context.driver.find_element_by_xpath("//*[@id='attach-sidesheet-checkout-button']/span/input").click()
+
 
