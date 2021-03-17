@@ -35,6 +35,7 @@ def before_all(context):
     time.sleep(5)
     context.driver.find_element_by_id("ap_password").send_keys(config.get("Logincredentials", "PASSWORD"))
     context.driver.find_element_by_id("signInSubmit").click()
+    time.sleep(15)
 
 
 
