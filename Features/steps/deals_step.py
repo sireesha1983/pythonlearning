@@ -1,6 +1,6 @@
 from behave import when, then
 
-from pythonlearning import constants
+import constants
 
 
 @when(u'i click on todays deals')
