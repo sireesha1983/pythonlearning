@@ -66,9 +66,19 @@ Feature: sample1
 #  Then i click on proceed to checkout button
 
 
-@studentprime
-Scenario: Verify prime
-  When i click on prime
-  And i click on entertainment
-  And i click on amazon music unlimited
-  Then i click on get started
+#@studentprime
+#Scenario: Verify prime
+#  When i click on prime
+#  And i click on entertainment
+#  And i click on amazon music unlimited
+#  Then i click on get started
+
+
+@all
+Scenario: Verify all
+  When i click on all
+  And i click on appstore for android
+  And i click on all apps and games
+  And i click on last 30 days
+  And i click on first image app
+  Then i click on continue
