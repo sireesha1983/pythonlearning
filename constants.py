@@ -26,3 +26,13 @@ ClickOnAllAppsAndGames = "#hmenu-content > ul.hmenu.hmenu-visible.hmenu-translat
 ClickOnLast30Days = "//*[@id='s-refinements']/div[1]/ul/li[1]/span/a/span"
 ClickOnFirstImageApp = "//*[@id='search']/div[1]/div[2]/div/span[3]/div[2]/div[1]/div/span/div/div/span/a/div/img"
 ClickOnContinue = "//*[@id='masrw-get-app-button-announce']"
+ISignout = "//*[@id='nav-item-signout']/span"
+
+Clickonbestseller ="//*[@id='nav-xshop']/a[6]"
+Clickonnewreases ="//*[@id='zg_tabs']/ul/li[2]/div/a"
+Clickonmoversandshakers="//*[@id='zg_tabs']/ul/li[3]/div/a"
+Clickonmostwishedfor="//*[@id='zg_tabs']/ul/li[4]/div/a"
+Clickongiftideas="//*[@id='zg_tabs']/ul/li[5]/div/a"
+Clickonfirstimage="//*[@id='zg_left_col1']/div[1]/div[2]/div/div[2]/a/div[1]/img"
+Clickonaddingcart="add-to-cart-button"
+Clickonproceedtocheckout="#hlb-ptc-btn-native"

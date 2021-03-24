@@ -63,7 +63,7 @@ Feature: sample1
 #  And i click on gift ideas
 #  And i click on first image
 #  And i click on adding cart button
-#  Then i click on proceed to checkout button
+#  Then i click on proceed to checkout
 
 
 #@studentprime
@@ -74,6 +74,7 @@ Feature: sample1
 #  Then i click on get started
 
 
+
 @all
 Scenario: Verify all
   When i click on all
@@ -81,4 +82,5 @@ Scenario: Verify all
   And i click on all apps and games
   And i click on last 30 days
   And i click on first image app
-  Then i click on continue
+  And i click on continue
+  Then i signout

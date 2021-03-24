@@ -1,10 +1,14 @@
+import time
+
 from behave import when, then
 import constants
 
 
 @when(u'i click on all')
 def step_impl(context):
+    time.sleep(3)
     context.driver.find_element_by_xpath(constants.ClickOnAll).click()
+    time.sleep(3)
 
 
 @when(u'i click on appstore for android')
@@ -27,8 +31,11 @@ def step_impl(context):
     context.driver.find_element_by_xpath(constants.ClickOnFirstImageApp).click()
 
 
-
-@then(u'i click on continue')
+@when(u'i click on continue')
 def step_impl(context):
     context.driver.find_element_by_xpath(constants.ClickOnContinue).click()
 
+
+@then(u'i signout')
+def step_impl(context):
+    context.driver.find_element_by_xpath(constants.ISignout).click()
