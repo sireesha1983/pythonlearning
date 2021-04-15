@@ -1,13 +1,13 @@
 Feature: sample1
 
-##@signin
-##Scenario: Verify signin button
-## Given I login with url
-## When i click on sign in button
-## And i enter e-mail
-## And i click on continue button
-## And i click on password
-## Then I click on sign_in button
+#@signin
+#Scenario: Verify signin button
+# Given I login with url
+# When i click on sign in button
+# And i enter e-mail
+# And i click on continue button
+# And i click on password
+# Then I click on sign_in button
 ##
 #@search
 ##Scenario:Verify search button
@@ -63,7 +63,7 @@ Feature: sample1
 #  And i click on gift ideas
 #  And i click on first image
 #  And i click on adding cart button
-#  Then i click on proceed to checkout button
+#  Then i click on proceed to checkout
 
 
 #@studentprime
@@ -74,11 +74,30 @@ Feature: sample1
 #  Then i click on get started
 
 
-@all
-Scenario: Verify all
-  When i click on all
-  And i click on appstore for android
-  And i click on all apps and games
-  And i click on last 30 days
-  And i click on first image app
-  Then i click on continue
+
+#@all
+#Scenario: Verify all
+#  When i click on all
+#  And i click on appstore for android
+#  And i click on all apps and games
+#  And i click on last 30 days
+#  And i click on first image app
+#  And i click on continue
+#  Then i signout
+
+#@spring
+#Scenario: Verify spring
+#  When i click on springclean withlowprices
+#  And i click on gardening
+#  And i click on turtle planter
+#  And i click on large
+#  Then i click on buyturtle
+
+@gift
+Scenario: Verify gift
+  When i click on find a gift
+  And i click on mothers day
+  And i click on jewelleryand wathches
+  And i click on bracelet
+  And i click on style
+  Then i click on buystyle
