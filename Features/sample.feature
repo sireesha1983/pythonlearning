@@ -93,11 +93,19 @@ Feature: sample1
 #  And i click on large
 #  Then i click on buyturtle
 
-@gift
-Scenario: Verify gift
-  When i click on find a gift
-  And i click on mothers day
-  And i click on jewelleryand wathches
-  And i click on bracelet
-  And i click on style
-  Then i click on buystyle
+#@gift
+#Scenario: Verify gift
+#  When i click on find a gift
+#  And i click on mothers day
+#  And i click on jewelleryand wathches
+#  And i click on bracelet
+#  And i click on style
+#  Then i click on buystyle
+
+@customer
+Scenario: Verify Customer Service
+  When i click on customer service
+  And i click on your orders
+  And i click on firstbookimg
+  And i click on kindle
+  Then i click on tryree
